@@ -1,0 +1,13 @@
+Name: 03 - workflow runners
+
+on: push
+
+Jobs: 
+  ubuntu-echo: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: show OS
+        run: | 
+          echo "I'm running on an ubunto runner."
+          echo "Runner OS: $RUNNER_OS"
+          
