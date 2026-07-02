@@ -15,6 +15,8 @@ jobs:
         name: install dependencies
         run: npm ci
         working-directory: 04-using-actions/react app
+        name: run unit tests
+        run: npm run test
 # 0. checkout the code from the repository
 # 1. install deps of our react application
 # 2. Execute automated tasks
