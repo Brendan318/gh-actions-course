@@ -14,6 +14,7 @@ jobs:
           node-version: 20
         name: install dependencies
         run: npm ci
+        working-directory: 04-using-actions/react app
 # 0. checkout the code from the repository
 # 1. install deps of our react application
 # 2. Execute automated tasks
