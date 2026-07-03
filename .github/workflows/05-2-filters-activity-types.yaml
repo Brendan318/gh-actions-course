@@ -3,8 +3,7 @@ name: 05 - 1 - event filters and activity types
 on:
   push_request:
     types:
-      -opened
-      -synchronized
+      -closed
     branches:
       -main
 

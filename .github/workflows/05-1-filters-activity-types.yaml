@@ -3,7 +3,8 @@ name: 05 - 2 - event filters and activity types
 on:
   push_request:
     types:
-      -closed
+      -opened
+      -synchronized
     branches:
       -main
 
@@ -11,4 +12,4 @@ jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "running whenever a PR is closed"
+      -run: echo "running whenever a PR is open or synchronized AND base branch is main"
