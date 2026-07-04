@@ -9,5 +9,4 @@ jobs:
       - name: show OS
         run: |
           echo "I'm running on an Ubuntu runner."
-          echo "Runner OS: $RUNNER_OS"
-          
+          echo "Runner OS: ${{ env.RUNNER_OS }}"     
