@@ -46,9 +46,9 @@ on:
           run: echo "running load tests"
     deploy-prod:
       runs-on: ubuntu-latest
-          needs:
-            - e2e-tests
-            - load-tests
+      needs:
+         - e2e-tests
+         - load-tests
       steps:
         - name: Deploying to prod 
           run: echo "Deploying to prod..."
