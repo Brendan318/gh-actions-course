@@ -1,0 +1,24 @@
+{
+  "name": "gh-actions-course",
+  "version": "1.0.0",
+  "description": "Repository containing all examples, as well as notes on GitHub actions course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brendan318/gh-actions-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Brendan318/gh-actions-course/issues"
+  },
+  "homepage": "https://github.com/Brendan318/gh-actions-course#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1"
+  }
+}
